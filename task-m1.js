@@ -48,3 +48,26 @@ Sample Input:
 Sample Output:
 4
  */
+
+const givenNumber = 119;
+const reminderResult = givenNumber % 5;
+console.log(reminderResult);
+
+
+
+/* Task-04
+What will be the result of the following codes:
+Explain your answers. */
+
+var a = isNaN(‘11’);
+/* In JavaScript, isNaN(11) evaluates to false.
+The isNaN() global function determines whether a value is NaN (Not-a-Number). When the argument provided to isNaN() is not already of the Number type, JavaScript attempts to convert it to a number first. 
+In the case of isNaN(11), the value 11 is already a valid number and can be successfully coerced to a numeric value that is not NaN. Therefore, isNaN() returns false, indicating that 11 is indeed a number. */
+
+var a = isNaN(2-10);
+/* In the case of isNaN(2 - 10):
+Arithmetic Operation: The expression 2 - 10 is evaluated first, resulting in -8.
+isNaN() Evaluation: The isNaN() function then receives -8 as its argument. Since -8 is a valid number and not NaN, isNaN(-8) returns false.
+Therefore, isNaN(2 - 10) in JavaScript evaluates to false. */
+
+
