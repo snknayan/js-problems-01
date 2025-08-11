@@ -68,6 +68,13 @@ display odd number from 55 to 85 and skip the numbers divisible by 5.
   );
 } */
 
+//todo:Using While loop
+/* let i = 1;
+while (i <= 60) {
+  console.log(" will invest at least 6 hrs every single day for next 60 days!");
+  i++;
+} */
+
 /***
 Task-16 (For)
 
@@ -87,7 +94,24 @@ for (let i = 78; i <= 98; i++) {
   }
 } */
 
+//todo: Using while loop
+/* let i = 61;
+while (i <= 100) {
+  if (i % 2 == 1) {
+    console.log(i);
+  }
+  i++;
+} */
+/* let i = 78;
+while (i <= 98) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+  i++;
+} */
+
 /*
+Task-17(For)
 Subtask-1:
 Display sum of all the odd numbers from 91 to 129.
 
@@ -101,7 +125,7 @@ for (let i = 91; i <= 129; i++) {
     console.log(sum);
   }
 }
-
+  
 let sum2 = 0;
 for (let i = 51; i <= 85; i++) {
   if (i % 2 === 0) {
@@ -110,8 +134,29 @@ for (let i = 51; i <= 85; i++) {
   }
 } */
 
+/* let i = 91;
+let sum = 0;
+while (i <= 129) {
+  if (i % 2 == 1) {
+    sum = sum + i;
+  }
+  console.log(sum);
+
+  i++;
+} */
+
+/* let i = 91;
+let sum = 0;
+while (i <= 129) {
+  if (i % 2 == 0) {
+    sum = sum + i;
+  }
+  console.log(sum);
+
+  i++;
+} */
 /***
-   Task-17 (For)
+   Task-18 (For)
 Generate a multiplication table for number 9
 9*1=9
 9*2=18
@@ -123,12 +168,27 @@ for (let i = 1; i <= 10; i++) {
   console.log(`${number} * ${i} = ${result}`);
 } */
 
+//todo: Using While
+/* let i = 1;
+let number = 9;
+while (i <= 10) {
+  let result = number * i;
+  console.log(`${number}* ${i}= ${result}`);
+  i++;
+} */
 /***
-Task-18 (For)
+Task-19 (For)
 Implement a countdown timer that counts down from 81 to 65.
  */
-let count = 0;
+/* let count = 0;
 for (let i = 81; i >= 65; i--) {
   count++;
   console.log("count");
+} */
+/* //todo: Using while
+let count = 81;
+while (count >= 65) {
+  console.log(count);
+  count--;
 }
+ */
